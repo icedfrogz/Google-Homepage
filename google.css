@@ -1,15 +1,47 @@
 body{
-	margin-top: 25%;
+	margin: 0;
+	padding: 0;
 }
 
 #searchText{
 	width: 550px;
 }
 
+#navBar{
+	text-align: right;
+}
+
+#navBar a {
+	color: #000000;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#navBar a:link{
+	text-decoration: none;
+}
+
+#navBar a:visited{
+	text-decoration: none;
+}
+
+#navBar a:hover{
+	text-decoration: underline;
+}
+
+#navBar a:active{
+	text-decoration: underline;
+}
+
+#signIn{
+	background-color: #000FFF;
+	color: #FFFFFF;
+}
+
 
 .center {
 	width: 600px;
-	margin: auto auto auto auto;
+	margin: 25% auto auto auto;
 }
 
 .center button{
